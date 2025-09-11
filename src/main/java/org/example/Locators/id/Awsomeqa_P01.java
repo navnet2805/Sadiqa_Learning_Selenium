@@ -10,9 +10,12 @@ public class Awsomeqa_P01 {
          WebDriver driver=new ChromeDriver();//launch the browser
         driver.get("https://awesomeqa.com/practice.html");
 
+
         //driver.findElement(By.xpath("//input[@id=\"sex-0\"]")).click();
 
         By gender_male = By.xpath("//input[@id=\"sex-0\"]");
+                By.linkText("Click here to Download File");
+                By.partialLinkText("Click");
         WebElement gender_male_checkbox = driver.findElement(gender_male);
         gender_male_checkbox.click();
     }
