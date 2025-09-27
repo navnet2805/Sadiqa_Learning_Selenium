@@ -1,4 +1,4 @@
-package org.example.Locators.id;
+package org.example.Navigation.Locators.id;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
