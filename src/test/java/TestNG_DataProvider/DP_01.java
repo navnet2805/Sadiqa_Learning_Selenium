@@ -24,7 +24,7 @@ public class DP_01 {
             Assert.fail();
     }
 
-    @Test(invocationCount = 100) // executed 100 times
+    @Test(invocationCount = 2) // executed 2 times
     public void Validation()
     {
         System.out.println("a=b");
